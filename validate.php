@@ -43,7 +43,4 @@ function validatePhoneNumber($name, $email, $phone, $conn, $id = null) {
     return true;
 }
 
-
-
-
 ?>

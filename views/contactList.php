@@ -74,7 +74,11 @@
               <?php endforeach; ?>
             </tbody>
           </table>
-        </div>
+          <p class="px-6 py-4 font-semibold text-gray-700">
+             Total contacts: <?php echo isset($contactCount) ? $contactCount : 'Not Available'; ?>
+          </p>
+
+          </div>
       <?php endif; ?>
     </div>
 
